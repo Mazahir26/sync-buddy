@@ -34,7 +34,7 @@ To use _Sync Buddy_ on your own browser:
 
 3. Configure Firebase:
 
-   - Open `background/background.ts` and `content/content.ts`.
+   - Open `src/background/background.ts` and `src/content/content.ts`.
    - Add your Firebase config details.
 
 4. Build the extension:
