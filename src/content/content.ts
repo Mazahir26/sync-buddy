@@ -1,6 +1,7 @@
 import { initializeApp } from "firebase/app";
 import type { User } from "firebase/auth";
 import JSConfetti from "js-confetti";
+
 const firebaseConfig = {
   // apiKey: "", // Your Firebase API key
   // authDomain: "", // Your Firebase Auth domain
