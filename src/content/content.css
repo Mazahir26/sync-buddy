@@ -1,0 +1,143 @@
+.myChatExtension-chat-box {
+  position: fixed;
+  z-index: 999;
+  bottom: 20px;
+  right: 0;
+  margin: 16px;
+  width: 320px;
+  height: 240px;
+  background-color: rgba(31, 41, 55, 0.4);
+  border: 1px solid #374151;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: opacity 0.3s;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.myChatExtension-opacity-0 {
+  opacity: 0;
+}
+
+.myChatExtension-opacity-100 {
+  opacity: 1;
+}
+
+.myChatExtension-pointer-events-none {
+  pointer-events: none;
+}
+
+.myChatExtension-flex {
+  display: flex;
+}
+
+.myChatExtension-flex-col {
+  flex-direction: column;
+}
+
+.myChatExtension-h-full {
+  height: 100%;
+}
+
+.myChatExtension-flex-1 {
+  flex: 1;
+}
+
+.myChatExtension-p-2 {
+  padding: 8px;
+}
+
+.myChatExtension-overflow-y-auto {
+  overflow-y: auto;
+}
+
+.myChatExtension-text-white {
+  color: white;
+}
+
+.myChatExtension-max-h-60 {
+  max-height: 240px;
+}
+
+.myChatExtension-scrollbar-thin::-webkit-scrollbar {
+  width: 6px;
+}
+
+.myChatExtension-scrollbar-thumb-gray-500::-webkit-scrollbar-thumb {
+  background-color: #6b7280;
+}
+
+.myChatExtension-scrollbar-track-gray-700::-webkit-scrollbar-track {
+  background-color: #374151;
+}
+
+.myChatExtension-border-t {
+  border-top: 1px solid;
+}
+
+.myChatExtension-border-gray-700 {
+  border-color: #374151;
+}
+
+.myChatExtension-input {
+  width: 100%;
+  padding: 8px;
+  background-color: #1f2937;
+  border: 1px solid #374151;
+  border-radius: 4px;
+  outline: none;
+  color: white;
+}
+
+.myChatExtension-input:focus {
+  outline: 2px solid #3b82f6;
+}
+
+.myChatExtension-mb-2 {
+  margin-bottom: 8px;
+}
+
+.myChatExtension-justify-between {
+  justify-content: space-between;
+}
+
+.myChatExtension-items-start {
+  align-items: flex-start;
+}
+
+.myChatExtension-bg-green-600 {
+  background-color: #10b981;
+}
+
+.myChatExtension-bg-blue-600 {
+  background-color: #2563eb;
+}
+
+.myChatExtension-rounded-lg {
+  border-radius: 8px;
+}
+
+.myChatExtension-max-w-2-3 {
+  max-width: 66.666667%;
+}
+
+.myChatExtension-break-all {
+  word-break: break-all;
+}
+
+.myChatExtension-overflow-hidden {
+  overflow: hidden;
+}
+
+.myChatExtension-text-gray-400 {
+  color: #9ca3af;
+}
+
+.myChatExtension-text-sm {
+  font-size: 0.875rem;
+}
+
+.myChatExtension-ml-2 {
+  margin-left: 8px;
+}
